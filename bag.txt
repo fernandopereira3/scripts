@@ -1,0 +1,15 @@
+
+    choco install -y --force vnc-connect > $null
+    choco install -y --force winrar > $null
+    choco install -y --force googlechrome > $null
+    choco install -y --force skype > $null
+    choco install -y --force adobereader > $null
+    choco install -y --force kis > $null
+
+
+    choco install --force -y office2019proplus --params '/Language:pt-BR'
+
+    winget install Microsoft.WindowsAdminCenter
+    choco install -y --force vscode
+    choco install -y --force teamviewer
+    choco install -y --force brave
