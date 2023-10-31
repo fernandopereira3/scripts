@@ -9,6 +9,7 @@
 *._*
 *.DS*
 *.pdf
+/python
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
